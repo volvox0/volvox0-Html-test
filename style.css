@@ -61,7 +61,7 @@ body {
 }
 
 .info-section {
-    background-color: #cfec97;
+    background-color: #f5f5f5;
     padding: 20px;
     margin: 20px 0;
     border-radius: 8px;
@@ -69,10 +69,15 @@ body {
 }
 
 .caution-section {
-    background-color: #fbe9e7;
+    background-color: #f08787;
     padding: 20px;
     margin: 20px 0;
     border-radius: 8px;
+    color: #030303
+}
+
+.caution-list li {
+    font-weight: bold;
 }
 
 
@@ -81,6 +86,7 @@ body {
     padding: 20px;
     margin: 20px 0;
     border-radius: 8px;
+    color: black;
 }
 
 
