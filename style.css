@@ -12,11 +12,11 @@ body {
     margin: 0;
 
     /*カーソル*/
- cursor: url('crowbar.png') 1 1, auto;
+ cursor: url('images/crowbar.png') 1 1, auto;
 }
   /*urlのカーソル設定*/
     .map-link {
-    cursor: url('crowbar.png') 5 5, pointer;
+    cursor: url('images/crowbar.png') 5 5, pointer;
     }
 
 /* 外枠 */
@@ -30,6 +30,20 @@ body {
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
+.header-flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-height: 300px; 
+    overflow: hidden; 
+}
+
+.seminar-photo {
+    width: 30%; 
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+}
 /* タイトル */
 .main-title {
     color: #ff6600; 
